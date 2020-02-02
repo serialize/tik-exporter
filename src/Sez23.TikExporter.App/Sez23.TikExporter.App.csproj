@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sez23.TikExporter\Sez23.TikExporter.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="tik4net" Version="3.5.0" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>Sez23.TikExporter.app</RootNamespace>
+  </PropertyGroup>
+
+</Project>
